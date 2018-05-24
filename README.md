@@ -6,11 +6,11 @@
 
 ParkingSingView is an iOS swift library which return street parking sign view for Melbourne style. It is extremely flexible and easy to implement.
 
+<img src="https://raw.githubusercontent.com/KPR7168/ParkingSignView/master/ParkingSignView/Assets/sample1.png" width=100px height=166px>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
