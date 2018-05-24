@@ -22,7 +22,7 @@ pod 'ParkingSignView'
 
 ## Author
 
-KPR7168, swin.arp2018@gmail.com
+KPR7168, pich_ratanak@ymail.com
 
 ## License
 
