@@ -107,6 +107,22 @@
                                     <action selector="height:" destination="vXZ-lx-hvc" eventType="valueChanged" id="jQm-kW-L19"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YlZ-Tj-dZ9">
+                                <rect key="frame" x="16" y="656" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clear first"/>
+                                <connections>
+                                    <action selector="clearFirstDate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3WL-az-NDz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HH1-n5-f98">
+                                <rect key="frame" x="268" y="656" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Clear second"/>
+                                <connections>
+                                    <action selector="clearSecondDate:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YwG-rs-cV7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

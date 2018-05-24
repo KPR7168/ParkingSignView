@@ -122,6 +122,12 @@ class ViewController: UIViewController {
         self.signView.frame = CGRect(origin: self.signView.frame.origin,
                                      size: CGSize(width: self.signView.frame.width, height: CGFloat(sender.value)))
     }
+    @IBAction func clearFirstDate(_ sender: Any) {
+        self.signView.firstParkingPeriod = nil
+    }
+    @IBAction func clearSecondDate(_ sender: Any) {
+        self.signView.secondParkingPeriod = nil
+    }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
