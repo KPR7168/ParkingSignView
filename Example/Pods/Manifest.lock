@@ -1,0 +1,16 @@
+PODS:
+  - ParkingSignView (0.1.0)
+
+DEPENDENCIES:
+  - ParkingSignView (from `../`)
+
+EXTERNAL SOURCES:
+  ParkingSignView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ParkingSignView: 397a330e461df6fdf68a1fc5c7822385febc1017
+
+PODFILE CHECKSUM: 31155467f0173ce2c24604ea7e90ac9b99e9b7ac
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,6 @@
+framework module ParkingSignView {
+  umbrella header "ParkingSignView-umbrella.h"
+
+  export *
+  module * { export * }
+}

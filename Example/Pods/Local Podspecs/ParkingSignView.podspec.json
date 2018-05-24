@@ -1,0 +1,22 @@
+{
+  "name": "ParkingSignView",
+  "version": "0.1.0",
+  "summary": "A short description of ParkingSignView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KPR7168/ParkingSignView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KPR7168": "swin.arp2018@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/KPR7168/ParkingSignView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ParkingSignView/Classes/**/*"
+}

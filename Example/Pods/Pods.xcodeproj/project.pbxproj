@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195B7CE8C9D16049A11F77E07E62C318 /* ParkingSignView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B773CB166BF3FB71564AE84A319AAAF8 /* ParkingSignView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7F1BE2D5E0071B413F6EC815CA0D01 /* ParkingSignView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFE9CAA5FEFF0E9B9E2BE99DBF631 /* ParkingSignView-dummy.m */; };
+		53ADB17CC05B73DB8E00726994AFF502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		708570906B945EF911418505D0DD4C67 /* Pods-ParkingSignView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6BB7CCCC5C6F15C58DF396075CD3C17 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDCF48D34CB8377E49196A57B350A9 /* ReplaceMe.swift */; };
+		B6E2359268ABB9D2162A6E9F8C620957 /* Pods-ParkingSignView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD76697A1EB19C0C5A0971FD5FA032 /* Pods-ParkingSignView_Tests-dummy.m */; };
+		C2EE3BFEF9A0B21AB18B15FAC0E0CABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DCA97EDCBA99D9C915153263A19079CC /* Pods-ParkingSignView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4F361BFF185CDAFC59491C066BE882 /* Pods-ParkingSignView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51B2CC2544E30C367EB82A0B640F3E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7D5962C4D9298C395A6088525FA7A8F /* Pods-ParkingSignView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A283059DDBB4824FFBED10A734740AE /* Pods-ParkingSignView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECB37C7C7EAB87ED45650178663D435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7B46FF6127DA9A1F47390BB862AA97;
+			remoteInfo = ParkingSignView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3A3DBE5E9633209D7392538EB20729 /* ParkingSignView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ParkingSignView.xcconfig; sourceTree = "<group>"; };
+		27AB18C927E8EC7F642F4DD2191D0738 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303A271F5E5DEEAA3320B033AE730055 /* ParkingSignView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ParkingSignView.modulemap; sourceTree = "<group>"; };
+		32BD76697A1EB19C0C5A0971FD5FA032 /* Pods-ParkingSignView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParkingSignView_Tests-dummy.m"; sourceTree = "<group>"; };
+		3D6E68719B4DD641510AE7C1533399B7 /* Pods-ParkingSignView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParkingSignView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3FEA42D4DBFE20B22E04D2C4AA891BBC /* Pods-ParkingSignView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParkingSignView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		50EDCF48D34CB8377E49196A57B350A9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ParkingSignView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		64FAF691FDE0BFE42240A4C716015755 /* Pods-ParkingSignView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParkingSignView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C3CFE9CAA5FEFF0E9B9E2BE99DBF631 /* ParkingSignView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ParkingSignView-dummy.m"; sourceTree = "<group>"; };
+		712750B7E1C54BACA7E4CC1A615C769D /* Pods_ParkingSignView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingSignView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		744A99B44C1CE92607E468DA7612D13A /* Pods-ParkingSignView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParkingSignView_Tests-resources.sh"; sourceTree = "<group>"; };
+		81D3C9A1B48344FF8C8DA3267EA1CD00 /* Pods-ParkingSignView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParkingSignView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A283059DDBB4824FFBED10A734740AE /* Pods-ParkingSignView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ParkingSignView_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A39717AD90C865515311F3AC48EE67E /* Pods-ParkingSignView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParkingSignView_Example-resources.sh"; sourceTree = "<group>"; };
+		A71D556A4B5AFA0A351A10E6E1931849 /* Pods-ParkingSignView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ParkingSignView_Tests.modulemap"; sourceTree = "<group>"; };
+		AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParkingSignView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AD65302039DE2BA9772D79295D5F73A5 /* Pods_ParkingSignView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingSignView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B056162079A6282784923CDA08D5BF65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B773CB166BF3FB71564AE84A319AAAF8 /* ParkingSignView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParkingSignView-umbrella.h"; sourceTree = "<group>"; };
+		B774DC6836598A45852143915448D89B /* Pods-ParkingSignView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParkingSignView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0B3D2EEA4FAF49D64135F8FC2553DD /* Pods-ParkingSignView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ParkingSignView_Example.modulemap"; sourceTree = "<group>"; };
+		C2CF81C6A793F4A028AADD943D714CD9 /* Pods-ParkingSignView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ParkingSignView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4B4D19977DF310C0BDB0FC2E1431199 /* ParkingSignView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ParkingSignView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AD4571F1528E94D629A21D48BE51DA /* Pods-ParkingSignView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParkingSignView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CD81C3FF2ECB43F08274240665EE2C50 /* Pods-ParkingSignView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParkingSignView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CD98BD9B4AFCAC5EFE81D35692C5A7E9 /* Pods-ParkingSignView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ParkingSignView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DC4F361BFF185CDAFC59491C066BE882 /* Pods-ParkingSignView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParkingSignView_Example-umbrella.h"; sourceTree = "<group>"; };
+		EE252125C46F917BA2490D4EE8E9D8C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9D0E4C8889EFFD7AE6C13C5C8DC9E0 /* ParkingSignView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParkingSignView-prefix.pch"; sourceTree = "<group>"; };
+		FF665095E1E9F6147D2DB502FDC21346 /* Pods-ParkingSignView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ParkingSignView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		134D139C4E5684615058F5497299B157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2EE3BFEF9A0B21AB18B15FAC0E0CABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59594B550CDD68257A4560968AEA29E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51B2CC2544E30C367EB82A0B640F3E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A1465AE6FB62CABFD4CACF97349C6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53ADB17CC05B73DB8E00726994AFF502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B5C682DD24A9C41612893F50935FC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE252125C46F917BA2490D4EE8E9D8C5 /* Info.plist */,
+				303A271F5E5DEEAA3320B033AE730055 /* ParkingSignView.modulemap */,
+				1D3A3DBE5E9633209D7392538EB20729 /* ParkingSignView.xcconfig */,
+				6C3CFE9CAA5FEFF0E9B9E2BE99DBF631 /* ParkingSignView-dummy.m */,
+				FA9D0E4C8889EFFD7AE6C13C5C8DC9E0 /* ParkingSignView-prefix.pch */,
+				B773CB166BF3FB71564AE84A319AAAF8 /* ParkingSignView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ParkingSignView";
+			sourceTree = "<group>";
+		};
+		42E37FCAC18387CD3A9C52C77B6F301C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4B4D19977DF310C0BDB0FC2E1431199 /* ParkingSignView.framework */,
+				AD65302039DE2BA9772D79295D5F73A5 /* Pods_ParkingSignView_Example.framework */,
+				712750B7E1C54BACA7E4CC1A615C769D /* Pods_ParkingSignView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5324C8E6433C235D5DDE64AE4CC5DAEB /* Pods-ParkingSignView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B056162079A6282784923CDA08D5BF65 /* Info.plist */,
+				BE0B3D2EEA4FAF49D64135F8FC2553DD /* Pods-ParkingSignView_Example.modulemap */,
+				C2CF81C6A793F4A028AADD943D714CD9 /* Pods-ParkingSignView_Example-acknowledgements.markdown */,
+				64FAF691FDE0BFE42240A4C716015755 /* Pods-ParkingSignView_Example-acknowledgements.plist */,
+				8A283059DDBB4824FFBED10A734740AE /* Pods-ParkingSignView_Example-dummy.m */,
+				3D6E68719B4DD641510AE7C1533399B7 /* Pods-ParkingSignView_Example-frameworks.sh */,
+				9A39717AD90C865515311F3AC48EE67E /* Pods-ParkingSignView_Example-resources.sh */,
+				DC4F361BFF185CDAFC59491C066BE882 /* Pods-ParkingSignView_Example-umbrella.h */,
+				C6AD4571F1528E94D629A21D48BE51DA /* Pods-ParkingSignView_Example.debug.xcconfig */,
+				FF665095E1E9F6147D2DB502FDC21346 /* Pods-ParkingSignView_Example.release.xcconfig */,
+			);
+			name = "Pods-ParkingSignView_Example";
+			path = "Target Support Files/Pods-ParkingSignView_Example";
+			sourceTree = "<group>";
+		};
+		6131FFDA9BBBD23E441E82CD2F7B5E29 /* ParkingSignView */ = {
+			isa = PBXGroup;
+			children = (
+				50EDCF48D34CB8377E49196A57B350A9 /* ReplaceMe.swift */,
+				22B5C682DD24A9C41612893F50935FC4 /* Support Files */,
+			);
+			name = ParkingSignView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		64C9B00AC06D9ED52BDA8AD15A804E13 /* Pods-ParkingSignView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				27AB18C927E8EC7F642F4DD2191D0738 /* Info.plist */,
+				A71D556A4B5AFA0A351A10E6E1931849 /* Pods-ParkingSignView_Tests.modulemap */,
+				81D3C9A1B48344FF8C8DA3267EA1CD00 /* Pods-ParkingSignView_Tests-acknowledgements.markdown */,
+				B774DC6836598A45852143915448D89B /* Pods-ParkingSignView_Tests-acknowledgements.plist */,
+				32BD76697A1EB19C0C5A0971FD5FA032 /* Pods-ParkingSignView_Tests-dummy.m */,
+				CD98BD9B4AFCAC5EFE81D35692C5A7E9 /* Pods-ParkingSignView_Tests-frameworks.sh */,
+				744A99B44C1CE92607E468DA7612D13A /* Pods-ParkingSignView_Tests-resources.sh */,
+				AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */,
+				3FEA42D4DBFE20B22E04D2C4AA891BBC /* Pods-ParkingSignView_Tests.debug.xcconfig */,
+				CD81C3FF2ECB43F08274240665EE2C50 /* Pods-ParkingSignView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ParkingSignView_Tests";
+			path = "Target Support Files/Pods-ParkingSignView_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9988ECCA37DA605EA6FC182472E31F69 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				42E37FCAC18387CD3A9C52C77B6F301C /* Products */,
+				855D992346A2256AF439B0E12E008644 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		855D992346A2256AF439B0E12E008644 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5324C8E6433C235D5DDE64AE4CC5DAEB /* Pods-ParkingSignView_Example */,
+				64C9B00AC06D9ED52BDA8AD15A804E13 /* Pods-ParkingSignView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9988ECCA37DA605EA6FC182472E31F69 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6131FFDA9BBBD23E441E82CD2F7B5E29 /* ParkingSignView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16B5FC38CCC3B05CB5550F1D40CB6537 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195B7CE8C9D16049A11F77E07E62C318 /* ParkingSignView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FB70377723973BCFDD4051F0D5B69A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708570906B945EF911418505D0DD4C67 /* Pods-ParkingSignView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B540C5DA3B17E4AA248EE058188FAC03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA97EDCBA99D9C915153263A19079CC /* Pods-ParkingSignView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9BE73E84BD1A4C18D5996E14717C6491 /* Pods-ParkingSignView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2BCF8DF29D9071A7DC17C014FC1783 /* Build configuration list for PBXNativeTarget "Pods-ParkingSignView_Example" */;
+			buildPhases = (
+				F2B67F8AD98EA99334F24E7014FEDA6A /* Sources */,
+				C9A1465AE6FB62CABFD4CACF97349C6C /* Frameworks */,
+				B540C5DA3B17E4AA248EE058188FAC03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEC84E1B2E6F4FDE67DFD300E6A70140 /* PBXTargetDependency */,
+			);
+			name = "Pods-ParkingSignView_Example";
+			productName = "Pods-ParkingSignView_Example";
+			productReference = AD65302039DE2BA9772D79295D5F73A5 /* Pods_ParkingSignView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C631C54A4DC5C292FEC24DD4248A7825 /* Pods-ParkingSignView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7229E44DDDDEE6EF7EBFF9A7599370 /* Build configuration list for PBXNativeTarget "Pods-ParkingSignView_Tests" */;
+			buildPhases = (
+				65D2B21DE16E3D3087FABECAC0109F16 /* Sources */,
+				59594B550CDD68257A4560968AEA29E6 /* Frameworks */,
+				2FB70377723973BCFDD4051F0D5B69A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ParkingSignView_Tests";
+			productName = "Pods-ParkingSignView_Tests";
+			productReference = 712750B7E1C54BACA7E4CC1A615C769D /* Pods_ParkingSignView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF7B46FF6127DA9A1F47390BB862AA97 /* ParkingSignView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9E28B60D76D17034D1BBE39FCB4A2A /* Build configuration list for PBXNativeTarget "ParkingSignView" */;
+			buildPhases = (
+				E5510AA3DEE8F68256134F3448D7CA5A /* Sources */,
+				134D139C4E5684615058F5497299B157 /* Frameworks */,
+				16B5FC38CCC3B05CB5550F1D40CB6537 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkingSignView;
+			productName = ParkingSignView;
+			productReference = C4B4D19977DF310C0BDB0FC2E1431199 /* ParkingSignView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 42E37FCAC18387CD3A9C52C77B6F301C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7B46FF6127DA9A1F47390BB862AA97 /* ParkingSignView */,
+				9BE73E84BD1A4C18D5996E14717C6491 /* Pods-ParkingSignView_Example */,
+				C631C54A4DC5C292FEC24DD4248A7825 /* Pods-ParkingSignView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D2B21DE16E3D3087FABECAC0109F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E2359268ABB9D2162A6E9F8C620957 /* Pods-ParkingSignView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5510AA3DEE8F68256134F3448D7CA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7F1BE2D5E0071B413F6EC815CA0D01 /* ParkingSignView-dummy.m in Sources */,
+				B6BB7CCCC5C6F15C58DF396075CD3C17 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B67F8AD98EA99334F24E7014FEDA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D5962C4D9298C395A6088525FA7A8F /* Pods-ParkingSignView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEC84E1B2E6F4FDE67DFD300E6A70140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParkingSignView;
+			target = CF7B46FF6127DA9A1F47390BB862AA97 /* ParkingSignView */;
+			targetProxy = 4ECB37C7C7EAB87ED45650178663D435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D7BC6C009C295F8AB577D0AC95A1C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3A3DBE5E9633209D7392538EB20729 /* ParkingSignView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParkingSignView/ParkingSignView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParkingSignView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParkingSignView/ParkingSignView.modulemap";
+				PRODUCT_NAME = ParkingSignView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		221DF3876572336C68EC4F8E113CAAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AD4571F1528E94D629A21D48BE51DA /* Pods-ParkingSignView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParkingSignView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParkingSignView_Example/Pods-ParkingSignView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParkingSignView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		551F72A6C37212649CEBDC5762B71123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD81C3FF2ECB43F08274240665EE2C50 /* Pods-ParkingSignView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParkingSignView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParkingSignView_Tests/Pods-ParkingSignView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParkingSignView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FF98873F09BD3BBDA293B9915DF0F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3A3DBE5E9633209D7392538EB20729 /* ParkingSignView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ParkingSignView/ParkingSignView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ParkingSignView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ParkingSignView/ParkingSignView.modulemap";
+				PRODUCT_NAME = ParkingSignView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D525DAC15CB610B5453777B482AB00DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEA42D4DBFE20B22E04D2C4AA891BBC /* Pods-ParkingSignView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParkingSignView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParkingSignView_Tests/Pods-ParkingSignView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParkingSignView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4218BBAE5442A84247D9DD0A52976D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF665095E1E9F6147D2DB502FDC21346 /* Pods-ParkingSignView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ParkingSignView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ParkingSignView_Example/Pods-ParkingSignView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ParkingSignView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B7229E44DDDDEE6EF7EBFF9A7599370 /* Build configuration list for PBXNativeTarget "Pods-ParkingSignView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D525DAC15CB610B5453777B482AB00DF /* Debug */,
+				551F72A6C37212649CEBDC5762B71123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2BCF8DF29D9071A7DC17C014FC1783 /* Build configuration list for PBXNativeTarget "Pods-ParkingSignView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				221DF3876572336C68EC4F8E113CAAD6 /* Debug */,
+				E4218BBAE5442A84247D9DD0A52976D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD9E28B60D76D17034D1BBE39FCB4A2A /* Build configuration list for PBXNativeTarget "ParkingSignView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF98873F09BD3BBDA293B9915DF0F30 /* Debug */,
+				1D7BC6C009C295F8AB577D0AC95A1C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
