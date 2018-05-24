@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ParkingSignView_Example' do
+  pod 'ParkingSignView', :path => '../'
+
+  target 'ParkingSignView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
