@@ -20,16 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-//        var sampleDate = DateComponents()
-//        sampleDate.hour = 8
-//        sampleDate.minute = 30
-//        sampleDate.weekday = WeekDay.Monday.rawValue
-//
-//        var sampleDate1 = DateComponents()
-//        sampleDate1.hour = 4
-//        sampleDate1.minute = 3
-//        sampleDate1.weekday = WeekDay.Thursday.rawValue
-        
         self.signView = ParkingSignView(duration: 1, unit: .hour)
         self.signView.center = self.view.center
         self.view.addSubview(signView)

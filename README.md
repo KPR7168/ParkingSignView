@@ -13,7 +13,6 @@ ParkingSingView is an iOS swift library which return street parking sign view fo
 - [x] Customizable
 - [x] Easy to use
 
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -25,6 +24,30 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ParkingSignView'
+```
+
+## How to use
+### Initialization
+```swift
+let signView = ParkingSignView(duration: 1, unit: .hour)
+signView.center = self.view.center
+self.view.addSubview(signView)
+```
+
+### Change parking duration
+```swift
+signView.duration = 3
+```
+
+### Change parking unit
+```swift
+signView.unit = .hour //For hour format
+signView.unit = .minute //For minute format
+```
+
+### Show meter label
+```swift
+signView.isFree = false //false to show, true to hide
 ```
 
 ## Author
