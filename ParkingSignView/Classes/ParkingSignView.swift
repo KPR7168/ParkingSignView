@@ -37,7 +37,6 @@ public class ParkingSignView: UIView {
             self.firstPeriodStackView?.isHidden = false
         }
     }
-    
     public var secondParkingPeriod: DayComponents? {
         didSet {
             guard let secondParking = self.secondParkingPeriod else {
@@ -48,6 +47,24 @@ public class ParkingSignView: UIView {
             self.secondPeriodStackView?.fromDay = secondParking.fromDay
             self.secondPeriodStackView?.toDay = secondParking.toDay
             self.secondPeriodStackView?.isHidden = false
+        }
+    }
+    public var color: UIColor! {
+        set {
+            self.durationLabel.textColor = newValue
+            self.meterLabel.textColor = newValue
+            self.firstPeriodStackView?.color = newValue
+            self.secondPeriodStackView?.color = newValue
+            self.minuteStackView.color = newValue
+            self.layer.borderColor = newValue.cgColor
+        }
+        get {
+            if self.color == nil {
+                return self.durationLabel.textColor
+            }
+            else {
+                return self.color
+            }
         }
     }
     

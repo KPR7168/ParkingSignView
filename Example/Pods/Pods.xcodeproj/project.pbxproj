@@ -149,9 +149,9 @@
 			children = (
 				AFACE73F20B6917D00E889D4 /* ParkingSignView.swift */,
 				AFACE73E20B6917D00E889D4 /* DayComponent.swift */,
+				AFACE73B20B6917D00E889D4 /* PeriodStackView.swift */,
 				AFACE74020B6917D00E889D4 /* HourStackView.swift */,
 				AFACE73D20B6917D00E889D4 /* MinuteStackView.swift */,
-				AFACE73B20B6917D00E889D4 /* PeriodStackView.swift */,
 				AFACE73C20B6917D00E889D4 /* SignLabel.swift */,
 				22B5C682DD24A9C41612893F50935FC4 /* Support Files */,
 			);

@@ -9,7 +9,7 @@
 import UIKit
 
 public class MinuteStackView: UIStackView {
-
+    //MARK:- Public properties
     var minute: Int = 1 {
         didSet {
             if self.minute <= 0 || self.minute > 59 {
@@ -21,12 +21,29 @@ public class MinuteStackView: UIStackView {
             }
         }
     }
+    var color: UIColor! {
+        set {
+            self.largePLabel.textColor = newValue
+            self.minuteLabel.textColor = newValue
+            self.minuteStringLabel.textColor = newValue
+        }
+        get {
+            if self.color == nil {
+                return self.largePLabel.textColor
+            }
+            else {
+                return self.color
+            }
+        }
+    }
     
+    //MARK:- Private properties
     fileprivate let largePLabel = SignLabel(frame: CGRect.zero)
     fileprivate var minuteLabel = SignLabel(frame: CGRect.zero)
     fileprivate var minuteStringLabel = SignLabel(frame: CGRect.zero)
     fileprivate var minuteStackView = UIStackView(frame: CGRect.zero)
     
+    //MARK:- Class init
     required public init(coder: NSCoder) {
         super.init(coder: coder)
         
@@ -40,6 +57,7 @@ public class MinuteStackView: UIStackView {
         self.createUI()
     }
     
+    //MARK:- Private func
     fileprivate func createUI() {
         self.largePLabel.text = "P"
         self.largePLabel.fontSize = 60.0

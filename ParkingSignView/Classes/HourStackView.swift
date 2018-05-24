@@ -15,6 +15,21 @@ public class HourStackView: UIStackView {
             updateUI()
         }
     }
+    var color: UIColor! {
+        set {
+            self.hourLabel.textColor = newValue
+            self.minuteLabel.textColor = newValue
+            self.meridiemLabel.textColor = newValue
+        }
+        get {
+            if self.color == nil {
+                return self.hourLabel.textColor
+            }
+            else {
+                return self.color
+            }
+        }
+    }
     
     //MARK:- Private properties
     fileprivate var hourLabel: SignLabel!

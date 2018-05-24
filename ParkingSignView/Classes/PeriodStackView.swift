@@ -9,7 +9,7 @@
 import UIKit
 
 public class PeriodStackView: UIStackView {
-
+    //MARK:- Public Properties
     var fromDay = DateComponents() {
         didSet {
             self.fromHourStackView.dateComponents = fromDay
@@ -22,11 +22,28 @@ public class PeriodStackView: UIStackView {
             self.updateUI()
         }
     }
+    var color: UIColor! {
+        set {
+            self.dateLabel.textColor = newValue
+            self.fromHourStackView.color = newValue
+            self.toHourStackView.color = newValue
+        }
+        get {
+            if self.color == nil {
+                return self.dateLabel.textColor
+            }
+            else {
+                return self.color
+            }
+        }
+    }
     
+    //MARK:- Private Properties
     fileprivate var fromHourStackView: HourStackView!
     fileprivate var toHourStackView: HourStackView!
     fileprivate var dateLabel = SignLabel(frame: .zero)
     
+    //MARK:- Public Init func
     required public init(coder: NSCoder) {
         super.init(coder: coder)
         
@@ -44,6 +61,7 @@ public class PeriodStackView: UIStackView {
         self.updateUI()
     }
     
+    //MARK:- Private func
     fileprivate func createUI() {
         self.fromHourStackView = HourStackView(dateComponents: self.fromDay)
         self.toHourStackView = HourStackView(dateComponents: self.toDay)
