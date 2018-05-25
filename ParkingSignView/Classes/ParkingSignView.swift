@@ -22,33 +22,58 @@ public class ParkingSignView: UIView {
     }
     public var isFree: Bool = false {
         didSet {
-            self.meterLabel.isHidden = self.isFree
+            UIView.animate {
+                self.meterLabel.isHidden = self.isFree
+                self.mainStackView.layoutIfNeeded()
+            }
+            
         }
     }
     public var firstParkingPeriod: DayComponents? {
         didSet {
             guard let firstParking = self.firstParkingPeriod else {
-                self.firstPeriodStackView?.isHidden = true
+                UIView.animate {
+                    self.firstPeriodStackView?.alpha = 0.0
+                    self.firstPeriodStackView?.isHidden = true
+                    
+                    self.mainStackView.layoutIfNeeded()
+                }
                 return
             }
             
             self.firstPeriodStackView?.fromDay = firstParking.fromDay
             self.firstPeriodStackView?.toDay = firstParking.toDay
             self.firstPeriodStackView?.hideDate = firstParking.hideDate
-            self.firstPeriodStackView?.isHidden = false
+            UIView.animate {
+                self.firstPeriodStackView?.alpha = 1.0
+                self.firstPeriodStackView?.isHidden = false
+                
+                self.mainStackView.layoutIfNeeded()
+            }
         }
     }
     public var secondParkingPeriod: DayComponents? {
         didSet {
             guard let secondParking = self.secondParkingPeriod else {
-                self.secondPeriodStackView?.isHidden = true
+                UIView.animate {
+                    self.secondPeriodStackView?.alpha = 0.0
+                    self.secondPeriodStackView?.isHidden = true
+                    
+                    self.mainStackView.layoutIfNeeded()
+                }
                 return
             }
             
             self.secondPeriodStackView?.fromDay = secondParking.fromDay
             self.secondPeriodStackView?.toDay = secondParking.toDay
             self.secondPeriodStackView?.hideDate = secondParking.hideDate
-            self.secondPeriodStackView?.isHidden = false
+            
+            UIView.animate {
+                self.secondPeriodStackView?.alpha = 1.0
+                self.secondPeriodStackView?.isHidden = false
+                
+                self.mainStackView.layoutIfNeeded()
+            }
         }
     }
     public var color: UIColor! {
@@ -138,6 +163,7 @@ public class ParkingSignView: UIView {
         self.mainStackView.spacing = 4.0
         self.mainStackView.contentMode = .scaleToFill
         self.mainStackView.backgroundColor = .green
+        self.mainStackView.clipsToBounds = true
         self.addSubview(self.mainStackView)
         
         self.constraintMainStackToView()
@@ -145,16 +171,30 @@ public class ParkingSignView: UIView {
     
     fileprivate func updateDuration() {
         if self.unit == .hour {
-            self.durationLabel.isHidden = false
             self.durationLabel.text = "\(self.duration)\(self.unit.rawValue)"
             
-            self.minuteStackView.isHidden = true
+            UIView.animate {
+                self.durationLabel.alpha = 1.0
+                self.durationLabel.isHidden = false
+                
+                self.minuteStackView.alpha = 0.0
+                self.minuteStackView.isHidden = true
+                
+                self.mainStackView.layoutIfNeeded()
+            }
         }
         else {
-            self.minuteStackView.isHidden = false
             self.minuteStackView.minute = self.duration
             
-            self.durationLabel.isHidden = true
+            UIView.animate {
+                self.minuteStackView.alpha = 1.0
+                self.minuteStackView.isHidden = false
+                
+                self.durationLabel.alpha = 0.0
+                self.durationLabel.isHidden = true
+                
+                self.mainStackView.layoutIfNeeded()
+            }
         }
     }
     
