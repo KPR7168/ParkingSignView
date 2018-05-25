@@ -34,6 +34,7 @@ public class ParkingSignView: UIView {
             
             self.firstPeriodStackView?.fromDay = firstParking.fromDay
             self.firstPeriodStackView?.toDay = firstParking.toDay
+            self.firstPeriodStackView?.hideDate = firstParking.hideDate
             self.firstPeriodStackView?.isHidden = false
         }
     }
@@ -46,6 +47,7 @@ public class ParkingSignView: UIView {
             
             self.secondPeriodStackView?.fromDay = secondParking.fromDay
             self.secondPeriodStackView?.toDay = secondParking.toDay
+            self.secondPeriodStackView?.hideDate = secondParking.hideDate
             self.secondPeriodStackView?.isHidden = false
         }
     }

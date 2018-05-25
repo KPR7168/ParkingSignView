@@ -48,6 +48,7 @@ struct DayComponent {
 public struct DayComponents {
     public var fromDay: DateComponents
     public var toDay: DateComponents
+    public var hideDate: Bool = false
     
     public init(fromDay: DateComponents, toDay: DateComponents) {
         self.fromDay = fromDay

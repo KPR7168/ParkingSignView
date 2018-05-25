@@ -37,6 +37,11 @@ public class PeriodStackView: UIStackView {
             }
         }
     }
+    var hideDate: Bool = false {
+        didSet {
+            self.dateLabel.isHidden = self.hideDate
+        }
+    }
     
     //MARK:- Private Properties
     fileprivate var fromHourStackView: HourStackView!
