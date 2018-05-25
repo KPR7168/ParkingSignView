@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ParkingSignView'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A flexible parking sing view designed to match Victoria street parking signs.'
 
 # This description is used to generate tags and improve search results.
