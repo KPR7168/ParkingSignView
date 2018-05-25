@@ -56,4 +56,4 @@ KPR7168, pich_ratanak@ymail.com
 
 ## License
 
-ParkingSignView is available under the MIT license. See the LICENSE file for more info.
+ParkingSignView is available under the MIT license. See the LICENSE file for more info. 🇰🇭
