@@ -11,13 +11,13 @@
 		3A7F1BE2D5E0071B413F6EC815CA0D01 /* ParkingSignView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3CFE9CAA5FEFF0E9B9E2BE99DBF631 /* ParkingSignView-dummy.m */; };
 		53ADB17CC05B73DB8E00726994AFF502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		708570906B945EF911418505D0DD4C67 /* Pods-ParkingSignView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFA4DAC320B7A7C80010CB32 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA4DAC220B7A7C80010CB32 /* Animation.swift */; };
 		AFACE74120B6917D00E889D4 /* PeriodStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73B20B6917D00E889D4 /* PeriodStackView.swift */; };
 		AFACE74220B6917D00E889D4 /* SignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73C20B6917D00E889D4 /* SignLabel.swift */; };
 		AFACE74320B6917D00E889D4 /* MinuteStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73D20B6917D00E889D4 /* MinuteStackView.swift */; };
 		AFACE74420B6917D00E889D4 /* DayComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73E20B6917D00E889D4 /* DayComponent.swift */; };
 		AFACE74520B6917D00E889D4 /* ParkingSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73F20B6917D00E889D4 /* ParkingSignView.swift */; };
 		AFACE74620B6917D00E889D4 /* HourStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE74020B6917D00E889D4 /* HourStackView.swift */; };
+		AFF84C2C20B7B51F00423179 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF84C2B20B7B51F00423179 /* Animation.swift */; };
 		B6E2359268ABB9D2162A6E9F8C620957 /* Pods-ParkingSignView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD76697A1EB19C0C5A0971FD5FA032 /* Pods-ParkingSignView_Tests-dummy.m */; };
 		C2EE3BFEF9A0B21AB18B15FAC0E0CABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DCA97EDCBA99D9C915153263A19079CC /* Pods-ParkingSignView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4F361BFF185CDAFC59491C066BE882 /* Pods-ParkingSignView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,13 +54,13 @@
 		A71D556A4B5AFA0A351A10E6E1931849 /* Pods-ParkingSignView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ParkingSignView_Tests.modulemap"; sourceTree = "<group>"; };
 		AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParkingSignView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD65302039DE2BA9772D79295D5F73A5 /* Pods_ParkingSignView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingSignView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFA4DAC220B7A7C80010CB32 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		AFACE73B20B6917D00E889D4 /* PeriodStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeriodStackView.swift; path = ParkingSignView/Classes/PeriodStackView.swift; sourceTree = "<group>"; };
 		AFACE73C20B6917D00E889D4 /* SignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignLabel.swift; path = ParkingSignView/Classes/SignLabel.swift; sourceTree = "<group>"; };
 		AFACE73D20B6917D00E889D4 /* MinuteStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinuteStackView.swift; path = ParkingSignView/Classes/MinuteStackView.swift; sourceTree = "<group>"; };
 		AFACE73E20B6917D00E889D4 /* DayComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DayComponent.swift; path = ParkingSignView/Classes/DayComponent.swift; sourceTree = "<group>"; };
 		AFACE73F20B6917D00E889D4 /* ParkingSignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParkingSignView.swift; path = ParkingSignView/Classes/ParkingSignView.swift; sourceTree = "<group>"; };
 		AFACE74020B6917D00E889D4 /* HourStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HourStackView.swift; path = ParkingSignView/Classes/HourStackView.swift; sourceTree = "<group>"; };
+		AFF84C2B20B7B51F00423179 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ParkingSignView/Classes/Animation.swift; sourceTree = "<group>"; };
 		B056162079A6282784923CDA08D5BF65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B773CB166BF3FB71564AE84A319AAAF8 /* ParkingSignView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ParkingSignView-umbrella.h"; sourceTree = "<group>"; };
 		B774DC6836598A45852143915448D89B /* Pods-ParkingSignView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ParkingSignView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 				AFACE74020B6917D00E889D4 /* HourStackView.swift */,
 				AFACE73D20B6917D00E889D4 /* MinuteStackView.swift */,
 				AFACE73C20B6917D00E889D4 /* SignLabel.swift */,
-				AFA4DAC220B7A7C80010CB32 /* Animation.swift */,
+				AFF84C2B20B7B51F00423179 /* Animation.swift */,
 				22B5C682DD24A9C41612893F50935FC4 /* Support Files */,
 			);
 			name = ParkingSignView;
@@ -354,11 +354,11 @@
 			files = (
 				AFACE74220B6917D00E889D4 /* SignLabel.swift in Sources */,
 				AFACE74120B6917D00E889D4 /* PeriodStackView.swift in Sources */,
-				AFA4DAC320B7A7C80010CB32 /* Animation.swift in Sources */,
 				AFACE74620B6917D00E889D4 /* HourStackView.swift in Sources */,
 				AFACE74420B6917D00E889D4 /* DayComponent.swift in Sources */,
 				3A7F1BE2D5E0071B413F6EC815CA0D01 /* ParkingSignView-dummy.m in Sources */,
 				AFACE74520B6917D00E889D4 /* ParkingSignView.swift in Sources */,
+				AFF84C2C20B7B51F00423179 /* Animation.swift in Sources */,
 				AFACE74320B6917D00E889D4 /* MinuteStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
