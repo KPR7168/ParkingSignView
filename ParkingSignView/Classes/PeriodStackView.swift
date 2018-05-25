@@ -39,7 +39,9 @@ public class PeriodStackView: UIStackView {
     }
     var hideDate: Bool = false {
         didSet {
-            self.dateLabel.isHidden = self.hideDate
+            UIView.animate {
+                self.dateLabel.isHidden = self.hideDate
+            }
         }
     }
     
