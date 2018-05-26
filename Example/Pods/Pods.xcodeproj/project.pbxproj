@@ -12,7 +12,7 @@
 		53ADB17CC05B73DB8E00726994AFF502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		708570906B945EF911418505D0DD4C67 /* Pods-ParkingSignView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF04441320B937E300C88494 /* ParkingArrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04441220B937E300C88494 /* ParkingArrow.swift */; };
-		AF04441520B9380A00C88494 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04441420B9380A00C88494 /* Helper.swift */; };
+		AF13A0D420B9831100FE6C1C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13A0D320B9831100FE6C1C /* Helper.swift */; };
 		AFACE74120B6917D00E889D4 /* PeriodStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73B20B6917D00E889D4 /* PeriodStackView.swift */; };
 		AFACE74220B6917D00E889D4 /* SignLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73C20B6917D00E889D4 /* SignLabel.swift */; };
 		AFACE74320B6917D00E889D4 /* MinuteStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFACE73D20B6917D00E889D4 /* MinuteStackView.swift */; };
@@ -57,7 +57,7 @@
 		AB9613132D310C7C36CAF3B4646BE436 /* Pods-ParkingSignView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ParkingSignView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD65302039DE2BA9772D79295D5F73A5 /* Pods_ParkingSignView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingSignView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF04441220B937E300C88494 /* ParkingArrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ParkingArrow.swift; path = ParkingSignView/Classes/ParkingArrow.swift; sourceTree = "<group>"; };
-		AF04441420B9380A00C88494 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AF13A0D320B9831100FE6C1C /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ParkingSignView/Classes/Helper.swift; sourceTree = "<group>"; };
 		AFACE73B20B6917D00E889D4 /* PeriodStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeriodStackView.swift; path = ParkingSignView/Classes/PeriodStackView.swift; sourceTree = "<group>"; };
 		AFACE73C20B6917D00E889D4 /* SignLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignLabel.swift; path = ParkingSignView/Classes/SignLabel.swift; sourceTree = "<group>"; };
 		AFACE73D20B6917D00E889D4 /* MinuteStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MinuteStackView.swift; path = ParkingSignView/Classes/MinuteStackView.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 				AFACE73C20B6917D00E889D4 /* SignLabel.swift */,
 				AFF84C2B20B7B51F00423179 /* Animation.swift */,
 				AF04441220B937E300C88494 /* ParkingArrow.swift */,
-				AF04441420B9380A00C88494 /* Helper.swift */,
+				AF13A0D320B9831100FE6C1C /* Helper.swift */,
 				22B5C682DD24A9C41612893F50935FC4 /* Support Files */,
 			);
 			name = ParkingSignView;
@@ -365,7 +365,7 @@
 				AFACE74420B6917D00E889D4 /* DayComponent.swift in Sources */,
 				3A7F1BE2D5E0071B413F6EC815CA0D01 /* ParkingSignView-dummy.m in Sources */,
 				AFACE74520B6917D00E889D4 /* ParkingSignView.swift in Sources */,
-				AF04441520B9380A00C88494 /* Helper.swift in Sources */,
+				AF13A0D420B9831100FE6C1C /* Helper.swift in Sources */,
 				AFF84C2C20B7B51F00423179 /* Animation.swift in Sources */,
 				AFACE74320B6917D00E889D4 /* MinuteStackView.swift in Sources */,
 			);
