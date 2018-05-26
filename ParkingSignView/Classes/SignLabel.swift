@@ -17,7 +17,7 @@ class SignLabel: UILabel {
     }
     
     //MARK:- Private properties
-    fileprivate let greenColor = UIColor(red: 0.0027, green: 0.667, blue: 0.251, alpha: 1.00)
+    fileprivate let greenColor = SignColor.greenColor
     fileprivate let customFont = UIFont(name: "HelveticaNeue-Bold", size: 14)
     
     //MARK:- init func

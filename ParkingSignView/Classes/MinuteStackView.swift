@@ -29,7 +29,7 @@ public class MinuteStackView: UIStackView {
         }
         get {
             if self.color == nil {
-                return self.largePLabel.textColor
+                return SignColor.greenColor
             }
             else {
                 return self.color

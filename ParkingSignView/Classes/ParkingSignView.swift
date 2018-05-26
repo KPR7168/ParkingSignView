@@ -94,6 +94,23 @@ public class ParkingSignView: UIView {
             }
         }
     }
+    public var arrowDirection: ArrowDirection? {
+        didSet {
+            if let direction = self.arrowDirection {
+                UIView.animate {
+                    self.arrowSign.type = direction
+                    self.arrowSign.alpha = 1.0
+                    self.arrowSign.isHidden = false
+                }
+            }
+            else {
+                UIView.animate {
+                    self.arrowSign.alpha = 0.0
+                    self.arrowSign.isHidden = true
+                }
+            }
+        }
+    }
     
     fileprivate var durationLabel = SignLabel(frame: CGRect.zero)
     fileprivate var meterLabel = SignLabel(frame: CGRect.zero)
@@ -101,6 +118,7 @@ public class ParkingSignView: UIView {
     fileprivate var secondPeriodStackView: PeriodStackView?
     fileprivate let minuteStackView = MinuteStackView(withMinute: 30)
     fileprivate var mainStackView = UIStackView(frame: CGRect.zero)
+    fileprivate var arrowSign: ParkingArrow!
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -125,7 +143,7 @@ public class ParkingSignView: UIView {
         self.layer.cornerRadius = 10.0
         self.backgroundColor = .white
         
-        self.frame.size = CGSize(width: 120, height: 200)
+        self.frame.size = CGSize(width: 120, height: 220)
         self.mainStackView.frame = self.bounds
         
         self.durationLabel.text = "\(self.duration)\(self.unit.rawValue)"
@@ -152,11 +170,20 @@ public class ParkingSignView: UIView {
         self.secondPeriodStackView = PeriodStackView(fromDay: fromDay, to: toDay)
         self.secondPeriodStackView?.isHidden = true
         
+        self.arrowSign = ParkingArrow(frame: CGRect(origin: CGPoint.zero,
+                                               size: CGSize(width: self.frame.width, height: 20)))
+        let emptySpace = UIView(frame: CGRect.zero)
+        emptySpace.heightAnchor.constraint(equalToConstant: 2).isActive = true
+        emptySpace.widthAnchor.constraint(equalToConstant: 120).isActive = true
+        emptySpace.backgroundColor = .clear
+        
         self.mainStackView.addArrangedSubview(self.durationLabel)
         self.mainStackView.addArrangedSubview(self.minuteStackView)
         self.mainStackView.addArrangedSubview(self.meterLabel)
         self.mainStackView.addArrangedSubview(self.firstPeriodStackView!)
         self.mainStackView.addArrangedSubview(self.secondPeriodStackView!)
+        self.mainStackView.addArrangedSubview(self.arrowSign)
+        self.mainStackView.addArrangedSubview(emptySpace)
         self.mainStackView.axis = .vertical
         self.mainStackView.alignment = .center
         self.mainStackView.distribution = .fillProportionally
@@ -172,29 +199,13 @@ public class ParkingSignView: UIView {
     fileprivate func updateDuration() {
         if self.unit == .hour {
             self.durationLabel.text = "\(self.duration)\(self.unit.rawValue)"
-            
-            UIView.animate {
-                self.durationLabel.alpha = 1.0
                 self.durationLabel.isHidden = false
-                
-                self.minuteStackView.alpha = 0.0
                 self.minuteStackView.isHidden = true
-                
-                self.mainStackView.layoutIfNeeded()
-            }
         }
         else {
             self.minuteStackView.minute = self.duration
-            
-            UIView.animate {
-                self.minuteStackView.alpha = 1.0
-                self.minuteStackView.isHidden = false
-                
-                self.durationLabel.alpha = 0.0
                 self.durationLabel.isHidden = true
-                
-                self.mainStackView.layoutIfNeeded()
-            }
+                self.minuteStackView.isHidden = false
         }
     }
     
