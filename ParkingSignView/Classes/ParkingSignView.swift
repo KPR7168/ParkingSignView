@@ -118,7 +118,7 @@ public class ParkingSignView: UIView {
     fileprivate var secondPeriodStackView: PeriodStackView?
     fileprivate let minuteStackView = MinuteStackView(withMinute: 30)
     fileprivate var mainStackView = UIStackView(frame: CGRect.zero)
-    fileprivate var arrowSign: ParkingArrow!
+    public var arrowSign: ParkingArrow!
     
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
