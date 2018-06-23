@@ -143,6 +143,8 @@ public class ParkingSignView: UIView {
         self.layer.cornerRadius = 10.0
         self.backgroundColor = .white
         
+        self.updateDuration()
+        
         self.frame.size = CGSize(width: 120, height: 220)
         self.mainStackView.frame = self.bounds
         
@@ -153,7 +155,6 @@ public class ParkingSignView: UIView {
         self.meterLabel.fontSize = 20
         
         self.minuteStackView.minute = self.duration
-        self.minuteStackView.isHidden = true
         
         var fromDay = DateComponents()
         fromDay.hour = 12
